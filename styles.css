@@ -1,1 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@1,500&display=swap');
+
+
+td {
+    border: thin solid black;
+    background-color:blanchedalmond
+}
+#rowTopHead  {
+    background-color: bisque;
+    
+}
+th  {
+    border: thin solid black;
+    background-color: rgb(255, 241, 148);
+}
+tbody {
+    border: thin solid black;
+    position: center;
+    display:contents;
+}
+tfoot {
+    border: thin solid black;
+    background-color: antiquewhite;
+}
+tr {
+    border: black;
+    background-color:antiquewhite;
+}
+table {
+    border: thin solid black;
+    position:sticky;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    
+}
+#city {
+    background-color: burlywood;
+}
+body  {
+    justify-content: center;
+  
+    background-image: url(salmon1.png);
+    background-repeat: repeat;
+    background-size: 250px;
+    text-shadow: 3px;
+    color: rgb(23, 74, 227);
+text-align: center;
+    
+}
