@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@1,500&display=swap');
 
+h1 {
+    -webkit-text-stroke-color: rgb(172, 194, 204);
+    -webkit-text-stroke-width: 1px;
+}
 
 td {
     border: thin solid black;
@@ -11,7 +15,7 @@ td {
 }
 th  {
     border: thin solid black;
-    background-color: rgb(255, 241, 148);
+    background-color: rgb(212, 124, 9);
 }
 tbody {
     border: thin solid black;
@@ -21,17 +25,21 @@ tbody {
 tfoot {
     border: thin solid black;
     background-color: antiquewhite;
+    height: 50px;
 }
 tr {
     border: black;
     background-color:antiquewhite;
 }
 table {
+    width: 80%;
+    height: 300px;
     border: thin solid black;
     position:sticky;
     margin-left: auto;
     margin-right: auto;
     color: black;
+    scroll-margin-block-start:inherit ;
     
 }
 #city {
@@ -47,4 +55,19 @@ body  {
     color: rgb(23, 74, 227);
 text-align: center;
     
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.salesLink  {
+    color:rgb(82, 6, 154);
+    -webkit-text-stroke-color: rgb(142, 139, 144);
+    -webkit-text-stroke-width: 1px;
+}
+.td2 {
+    color: azure;
+}
+#footrow {
+   color: rgba(238, 64, 1, 0.99);
 }
