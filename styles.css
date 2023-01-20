@@ -71,3 +71,17 @@ a {
 #footrow {
    color: rgba(238, 64, 1, 0.99);
 }
+
+.Form {
+    color: rgba(29, 225, 239, 0.659);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(22, 67, 106);
+    border: 1px solid black;
+}
+    
+h4 {
+    display: inline;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(22, 67, 106);
+    -webkit-text-fill-color: aqua;
+}
